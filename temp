@@ -1,8 +1,0 @@
-const index = async (req, res) => {
-  // res.status(httpStatus.OK).send({ message: "Welcome to Acronym API." });
-  fs.readFile(path.join(__dirname, jsonDB), (err, json) => {
-    console.log({ err, json });
-    let obj = JSON.parse(json);
-    res.json(obj);
-  });
-};
