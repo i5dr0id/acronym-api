@@ -1,0 +1,22 @@
+{
+   "name": "G2i-NodeJS-Test",
+   "version": "1.0.0",
+   "description": "World Texting Foundation",
+   "main": "src/index.js",
+   "dev": "src/index.js",
+   "author": "Israel Ugbodaga",
+   "license": "MIT",
+   "scripts": {
+      "dev": "cross-env NODE_ENV=development nodemon src/index.js"
+   },
+   "dependencies": {
+      "cors": "^2.8.5",
+      "cross-env": "^7.0.3",
+      "express": "^4.17.1",
+      "helmet": "^4.2.0",
+      "http-status": "^1.5.0"
+   },
+   "devDependencies": {
+      "nodemon": "^2.0.6"
+   }
+}
